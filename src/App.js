@@ -42,8 +42,8 @@ function App() {
 				<Alert alert={alert} />
 				<div className='container'>
 					<Routes>
-            <Route exact path='/about' element={<About />} />
-            <Route exact path='/' element={<TextForm isDarkMode={isDarkMode} />} />
+            <Route exact path='./about' element={<About />} />
+            <Route exact path='./' element={<TextForm isDarkMode={isDarkMode} />} />
 					</Routes>
 				</div>
 			</div>
